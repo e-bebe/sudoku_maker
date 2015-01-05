@@ -2,7 +2,7 @@ master: ![master](https://travis-ci.org/hooor/sudoku_maker.svg?branch=master "")
 
 # SudokuMaker
 
-SudokuMaker which can make sudoku 4x4, 9x9, 16x16, …, 100x100
+SudokuMaker which can make sudoku 4x4, 9x9, 16x16, …, 100x100.
 
 ## Installation
 
