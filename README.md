@@ -20,13 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-SudokuMaker.make [Int](4, 9, 16, 25, 36, 49, 64, 81, 100)
+SudokuMaker.make Int(4, 9, 16, 25, 36, 49, 64, 81, 100)
+
 args is only permited in (4, 9, 16, 25, 36, 49, 64, 81, 100)
-
 return value is array
-e.g. args=>4 #=> [1, 3, 4, 2, 4, 2, 3, 1, 2, 4, 1, 3, 3, 1, 2, 4]
 
+e.g. args=>4 #=> [1, 3, 4, 2, 4, 2, 3, 1, 2, 4, 1, 3, 3, 1, 2, 4]
 means
+
+```
 -----------------
 | 1 | 3 | 4 | 2 |
 -----------------
@@ -36,6 +38,7 @@ means
 -----------------
 | 3 | 1 | 2 | 4 |
 -----------------
+```
 
 ## Contributing
 
