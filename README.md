@@ -1,6 +1,6 @@
 # SudokuMaker
 
-Sudoku maker which can make 4x4, 9x9, 16x16, …, 100x100
+SudokuMaker which can make sudoku 4x4, 9x9, 16x16, …, 100x100
 
 ## Installation
 
@@ -20,7 +20,22 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here!
+SudokuMaker.make [Int](4, 9, 16, 25, 36, 49, 64, 81, 100)
+args is only permited in (4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+return value is array
+e.g. args=>4 #=> [1, 3, 4, 2, 4, 2, 3, 1, 2, 4, 1, 3, 3, 1, 2, 4]
+
+means
+-----------------
+| 1 | 3 | 4 | 2 |
+-----------------
+| 4 | 2 | 3 | 1 |
+-----------------
+| 2 | 4 | 1 | 3 |
+-----------------
+| 3 | 1 | 2 | 4 |
+-----------------
 
 ## Contributing
 
