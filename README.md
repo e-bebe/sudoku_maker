@@ -20,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
+```ruby
+require "sudoku_maker"
+
 SudokuMaker.make ARGS Int(4, 9, 16, 25, 36, 49, 64, 81, 100)
+```
 
 args is a block number (generally => 9)
 
