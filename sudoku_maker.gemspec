@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mail@yokkora.info"]
   spec.summary       = %q{Sudoku maker which can make 4x4, 9x9, 16x16, …, 100x100}
   spec.description   = %q{Sudoku maker which can make 4x4, 9x9, 16x16, …, 100x100}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/hooor/sudoku_maker"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
