@@ -17,7 +17,7 @@ module SudokuMaker
 
     private
 
-    # check args
+    # check args.
     def check(num)
       if AllBlockNumbers::BLOCK_NUMBERS.include?(num)
         return true
