@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "sudoku_maker"
   spec.version       = SudokuMaker::VERSION
   spec.authors       = ["yokkora"]
-  spec.email         = ["mail@yokkora.info"]
+  spec.email         = ["none"]
   spec.summary       = %q{Sudoku maker which can make 4x4, 9x9, 16x16, …, 100x100}
   spec.description   = %q{Sudoku maker which can make 4x4, 9x9, 16x16, …, 100x100}
   spec.homepage      = "https://github.com/hooor/sudoku_maker"
