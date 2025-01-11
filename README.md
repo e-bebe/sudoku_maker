@@ -4,7 +4,13 @@ SudokuMaker which can make sudoku 4x4, 9x9, 16x16, …, 100x100.
 
 ## Installation
 
+This project was cloned using the Cline AI assistant.
+
 Add this line to your application's Gemfile:
+
+```
+# Added by Cline
+```
 
 ```ruby
 gem 'sudoku_maker'
