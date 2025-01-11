@@ -55,6 +55,7 @@ means
 ```
 
 ## サンプル
+sample
 
 README.mdにサンプルを追加する。
 
