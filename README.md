@@ -54,6 +54,22 @@ means
 -----------------
 ```
 
+## サンプル
+
+README.mdにサンプルを追加する。
+
+```ruby
+require "sudoku_maker"
+
+# 9x9の数独を生成する
+board = SudokuMaker.make 9
+board.each_slice(9).each { |row| p row }
+
+# 4x4の数独を生成する
+board = SudokuMaker.make 4
+board.each_slice(4).each { |row| p row }
+```
+
 ## Demo
 
 ```ruby
